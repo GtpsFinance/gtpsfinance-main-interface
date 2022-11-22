@@ -703,7 +703,7 @@ export default function Swap() {
                             signatureState === UseERC20PermitState.SIGNED ? (
                               <Trans>You can now trade {currencies[Field.INPUT]?.symbol}</Trans>
                             ) : (
-                              <Trans>Allow the Uniswap Protocol to use your {currencies[Field.INPUT]?.symbol}</Trans>
+                              <Trans>Give GtpsFinance Permission to use your {currencies[Field.INPUT]?.symbol}</Trans>
                             )}
                           </span>
                           {approvalPending || approvalState === ApprovalState.PENDING ? (
